@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Learn React",
+      "hoursLeft": 5
+    },
+    {
+      "id": 2,
+      "name": "JavaScript Fundamentals",
+      "hoursLeft": 8
+    },
+    {
+      "id": 3,
+      "name": "Web Development Basics",
+      "hoursLeft": 10
+    }
+  ]
+  

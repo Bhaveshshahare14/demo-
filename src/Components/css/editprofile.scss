@@ -1,0 +1,55 @@
+.edit-profile{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+.nav-tabs{
+    margin-bottom: 3%;
+}
+    .profile-h3{
+        padding-bottom: 1%;
+        font-weight: bold;
+    }
+
+    .nav-link{
+        color: black;
+    }
+    .nav-link.underline {
+        border-bottom: 2px solid #007bff; 
+      }
+      .form-control {
+        margin-bottom: 10px; /* Add margin at the bottom for spacing between input fields */
+        padding: 8px; /* Add padding to input fields */
+        /* Add any other styles you need for your input fields */
+      }
+      .btn-primary{
+        margin-top: 3%;
+
+      }
+      .person-profile{
+        width: 60%;
+        height: 80%;
+   
+      }
+
+      .dv-h6{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-weight: bold;
+
+      }
+      
+      .rectangle-container {
+        width: 200px; /* Set the desired width */
+        height: 150px; /* Set the desired height */
+        overflow: hidden; /* Hide overflowing content if the image is larger than the container */
+        border: 1px solid #ddd; /* Add a border if needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+      }
+  
+      
+}

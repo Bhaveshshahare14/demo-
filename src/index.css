@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: 'Jost', sans-serif;
+
+    
+  }
+
+  *{
+    font-family: 'Jost', sans-serif;
+   /* font-family: 'Nunito', sans-serif; */
+
+  }
+
+ .fs-14{
+  font-size: 14px;
+ }
+ .fs-16{
+  font-size: 16px;
+ }
+ .fs-18{
+  font-size: 18px;
+ }
+ .fs-20{
+  font-size: 20px;
+ }
+
+ /* .h1{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+ }
+ .h2{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+ }
+ .h3{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+ }
+ .h4{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+ }
+ 
+ .h5{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+ }
+ .h6{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+ }
+ .p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+ } */

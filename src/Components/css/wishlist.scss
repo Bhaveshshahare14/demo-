@@ -1,0 +1,31 @@
+.dv-wishlist {
+  .dv-h1 {
+    text-align: center;
+  }
+  .style-h5 {
+    padding-top: 5px;
+    font-weight: bold;
+    color: red;
+  }
+
+  .button {
+    padding-top: 20px;
+  }
+
+  .btn {
+    color: white;
+    background-color: #0038ff;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: white;
+    color: #0080ff;
+    border: 1px solid #0080ff;
+  }
+
+  .wishlistshop {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+  }
+}

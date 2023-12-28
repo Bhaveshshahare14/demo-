@@ -1,0 +1,110 @@
+.popular-main-course{
+
+  padding-top: 5%;
+  padding-bottom: 8%;
+   padding-left: 2%;
+   padding-right: 2%;
+   background-color:rgb(235,241,250);
+  
+ 
+ .card{
+   border: none;
+   border-radius: 10px;
+   
+ }
+ 
+ 
+ .card-img-top-20{ 
+   width: 100%; 
+   border-radius: 0%;
+ 
+ }
+ .img-hover-zoom {
+   height: 200px; 
+   overflow: hidden; 
+ }
+ 
+
+ .img-hover-zoom img {
+   transition: transform .5s ease;
+ }
+ 
+ 
+ .img-hover-zoom:hover img {
+   transform: scale(1.2);
+ }
+ 
+ 
+ 
+ .hr{
+ 
+   border-top: 3px dotted #161616;
+   margin: 20px 0; 
+ }
+ .popular-courses-h1{
+  padding-bottom: 4%;
+   text-align: center;
+   font-weight: bold;
+ }
+ .card-title{
+   font-weight: bold;
+   padding-top: 5%;
+   padding-bottom: 4%;
+ }
+ 
+ .card-body{
+   padding: 7%;
+ }
+ 
+ .row-Courses{
+   margin-right: 10px;
+   color:rgb(73, 72, 73);
+   display: flex;
+   justify-content: space-between;
+  font-size: 12px;
+   
+ }
+ .instructor{
+   font-size: 15px;
+   font-weight: bold;
+   padding-bottom: 5%;
+   padding-top: 1%;
+ 
+ }
+ .line-courses{
+   text-align: start;
+ }
+ .row-Courses2{
+   display: flex;
+ }
+ .fees{
+   color: red;
+   text-align: right;
+ }
+ .tagimg{
+   width: 60%;
+   
+   align-items: flex-end;
+ }
+
+   // X-Small devices (portrait phones, less than 576px)
+// @media (max-width: 375.98px)
+@media (min-width: 320px) and (max-width: 768px) 
+
+{
+ .popular-courses-h1 {
+   font-weight: bold;
+   text-align: center;
+
+   font-size: 23px;
+  
+ }
+ .card-img-top-20{
+  padding: 20px;
+ }
+}
+ 
+ 
+ 
+ 
+ }

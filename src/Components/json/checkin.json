@@ -1,0 +1,25 @@
+{
+    "checkinlogin": [
+      {
+        "label": "Username or Email *",
+        "type": "email",
+        "placeholder": "Username or Email"
+      },
+      {
+        "label": "Password *",
+        "type": "password",
+        "placeholder": "Password"
+      }
+    ],
+    "rememberMe": {
+      "label": "Remember me"
+    },
+    "submitButton": {
+      "text": "LOGIN"
+    },
+    "forgotPasswordLink": {
+      "text": "Lost your password?",
+      "href": "#"
+    }
+  }
+  

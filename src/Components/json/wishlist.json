@@ -1,0 +1,27 @@
+{
+    "wishlistdata":[
+    {
+        "id":1,
+        "image":"uiuxcourse.png",
+        "title":"Learn SQL- SQL Essential Training",
+        "price":"399/-"
+
+    },
+    {
+        "id":2,
+        "image":"webdevcourse.png",
+        "title":"Learn SQL- SQL Essential Training",
+        "price":"399/-"
+
+    },
+    {
+        "id":3,
+        "image":"uiuxcourse.png",
+        "title":"Learn SQL- SQL Essential Training",
+        "price":"399/-"
+
+    }
+]
+
+    
+}

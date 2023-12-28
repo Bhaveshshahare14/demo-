@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      
+      "firstname": "Hiteshi",
+      "lastname": "Meshram",
+      "email": "hiteshimeshram.21v@stvincentngp.edu.in",
+      "password": "Raut@123",
+      "phone": "7083319562"     
+
+    },
+    {
+      "username": "VineetPatil",
+      "firstName": "Vineet",
+      "lastName": "Patil",
+      "password": "Vineetpt25",
+      "email": "vineetpatil.21@stvincentngp.edu.in"
+    },
+    {
+      "username": "VrushaliTurkar",
+      "firstName": "Vrushali",
+      "lastName": "Turkar",
+      "password": "Rekha@123",
+      "email": "vrushaliturkar.21v@stvincentngp.edu.in"
+    },
+    {
+      "username": "KhijendraDighore",
+      "firstName": "Khijendra",
+      "lastName": "Dighore",
+      "password": "Khijendra@19357",
+      "email": "khijendradighore.21v@stvincentngp.edu.in"
+    },
+    {
+      "username": "BhaveshShahare",
+      "firstName": "Bhavesh",
+      "lastName": "Shahare",
+      "password": "Bhavesh1434@.com",
+      "email": "harshalshahare2809@gmail.com"
+    },
+    {
+      "username": "PriyankaDeotale",
+      "firstName": "Priyanka",
+      "lastName": "Deotale",
+      "password": " Priyanka@123",
+      "email": "priyankadeotale.21v@stvincentngp.edu.in"
+    },
+    {
+      "username": " AtharvaMatikhaye",
+      "firstName": " Atharva",
+      "lastName": "Matikhaye",
+      "password": " AtharvaSVPCET",
+      "email": "matikhayeatharva.21v@stvincentngp.edu.in "
+    }
+  ]
+}
+
+

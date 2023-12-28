@@ -1,0 +1,80 @@
+.container-main-1{
+.profile-popup {
+  position: absolute;
+  top: 60px;
+  right: 1px;
+  background-color: white;
+  border: 2px solid #ddd;
+
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  border-radius: 5px;
+}
+
+
+.profile {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+.profile-header {
+ margin-top: 20px;
+ margin-bottom: 20px;
+  text-align: center;
+ 
+}
+
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+.popup-menu {
+  margin-top: 10px;
+  padding-left: 20px;
+padding-right: 40px;
+ 
+}
+.menu{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.horizontal-line{
+
+margin-bottom: 0%;
+
+}
+.card{
+  border-radius: 0%;
+  border: none;
+background-color: #ddd;
+  padding: 18px;
+}
+
+.popup-menu > div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.popup-menu > hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+}

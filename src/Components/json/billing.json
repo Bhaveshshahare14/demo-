@@ -1,0 +1,52 @@
+{
+    "billingDetails": {
+      "countryOptions": ["India", "China", "US", "Russia", "Germany"],
+      "formFields": [
+        {
+          "id": "FirstName",
+          "placeholder": "First Name"
+        },
+        {
+          "id": "LastName",
+          "placeholder": "Last Name"
+        },
+        {
+          "id": "Your_Company_Name",
+          "placeholder": "Your Company Name"
+        },
+        {
+          "id": "Street Address",
+          "placeholder": "Street Address"
+        },
+        {
+          "id": "Apartment, Suite, Unit, etc",
+          "placeholder": "Apartment, Suite, Unit, etc"
+        },
+        {
+          "id": "Town, City",
+          "placeholder": "Town, City"
+        },
+        {
+          "id": "Country",
+          "placeholder": "Country"
+        },
+        {
+          "id": "Postcode",
+          "placeholder": "Postcode"
+        },
+        {
+          "id": "Email",
+          "placeholder": "Email"
+        },
+        {
+          "id": "Phone Number",
+          "placeholder": "Phone Number"
+        }
+      ],
+      "checkbox": {
+        "id": "createAccount",
+        "label": "Create An Account"
+      }
+    }
+  }
+  

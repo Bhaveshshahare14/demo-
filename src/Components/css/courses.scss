@@ -1,0 +1,124 @@
+.dv-course {
+  padding-top: 7%;
+  padding-bottom: 4%;
+ 
+  .heading-h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 4%;
+  }
+  .Courses-links {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 3%;
+  }
+  .Courses-links:hover {
+    color: rgb(62, 62, 239);
+  }
+  .card-img-top {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    transition: transform 0.6s ease; /* Add a smooth transition for the transform property */
+  }
+  .card {
+    text-align: center; /* Center any inline content within the image container */
+    border-radius: 10px;
+    padding: 2%;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative; /* Ensure proper positioning of the image and the flipped version */
+    perspective: 1000px; /* Define the depth of the 3D space */
+  }
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+      rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  }
+  .card-text {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(108, 106, 106);
+    padding-top: 2%;
+  }
+  .bg-trasiction{
+    background-color: rgb(13, 94, 244);
+  }
+  .column-style {
+   
+    color: white;
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-right: 1px solid white; /* width style color */
+  }
+  .column-style:last-child{
+    border-right:none;
+  }
+  .h6 {
+    text-align: center;
+    font-weight: 500;
+  }
+
+
+
+
+
+  .card:hover .card-img-top {
+    transform: rotateY(180deg); /* Rotate the image by 180 degrees on hover */
+  }
+
+
+
+  .card .card-img-back {
+    transform: rotateY(180deg); /* Initially hide the flipped version of the image */
+  }
+  .h5-style:hover{
+color:rgb(13, 94, 244);
+  }
+
+  // X-Small devices (portrait phones, less than 576px)
+// @media (max-width: 375.98px)
+@media (min-width: 373px) and (max-width: 768px) 
+ {
+  .heading-h1 {
+    font-weight: bold;
+    text-align: center;
+ 
+    font-size: 23px;
+  
+  }
+  .h2{
+        font-size: 15px;
+        padding-top: 5px;
+        
+       
+        
+  }
+  .h6{
+      font-size: 8px;
+      font-weight: bold;
+      
+  }
+  .card-img-top {
+    width: 50px;
+    height: 50px;
+    
+    transition: transform 0.6s ease;
+  }
+  .card-body{
+    padding: 3px;
+  }
+  .Courses-links {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+  
+  }
+
+
+}
+}

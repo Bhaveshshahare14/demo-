@@ -1,0 +1,23 @@
+{
+    "cartItems": [
+      {
+        "id": 1,
+        "name": "Learn SQL - SQL Essential Training",
+        "price": "Rs. 399",
+        "image": "img1"
+      },
+      {
+        "id": 2,
+        "name": "Learn UI/UX Design",
+        "price": "Rs. 399",
+        "image": "img2"
+      },
+      {
+        "id": 3,
+        "name": "Web Development Course",
+        "price": "Rs. 399",
+        "image": "img3"
+      }
+    ]
+  }
+  

@@ -1,0 +1,92 @@
+.dv-instructor {
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 5%;
+  padding-right: 5%;
+background-color:rgbrgb(255,255,255);
+  
+  .ML {
+    padding-top: 0;
+  }
+
+  .h5 {
+    font-weight: 700;
+  }
+
+  .card {
+   
+    text-decoration: none;
+padding-top: 8%;
+padding-bottom: 8%;
+padding-left: 6%;
+padding-right: 6%;
+  margin-top: 15%;
+    margin-bottom: 5%;
+
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: none;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+ 
+.tickmark{
+  width: 26px;
+}
+ 
+
+  .btn {
+    padding: 15px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0080ff;
+    color: white;
+    font-weight: 600;
+  }
+  .btn-style {
+    margin-top: 30px;
+  }
+
+  .btn:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: #0080ff;
+    border: 1px solid #0080ff;
+  }
+  .w-100{
+    padding: 5%;
+  }
+
+  // @media (max-width: 375.98px)
+  @media (min-width: 373px) and (max-width: 768px) 
+  
+{
+ .h1 {
+  font-weight: bold;
+  text-align: center;
+
+  font-size: 23px;
+ }
+ .tickmark{
+  width: 20px;
+  height: 20px;
+ }
+ .h5{
+  font-size: 11px;
+  margin-top: 5px;
+ }
+ .btn-style{
+  text-align: center;
+ }
+ .btn{
+font-size: 12px;
+  padding: 10px;
+  
+ }
+
+ }
+}
+

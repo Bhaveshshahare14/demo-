@@ -1,0 +1,120 @@
+.Nav-container {
+  background-color: #f2f5f8;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  .navbar-nav {
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 600;
+  }
+
+  .nav-link {
+    margin-right: 12px;
+  }
+ 
+  .nav-item {
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+  }
+
+  
+
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-bar-navbar-main {
+    margin-right: 60px;
+    padding: 20px 30px;
+  }
+
+  .search-bar-navbar-main input {
+    width: 450px;
+    height: 35px;
+
+    border: 1px solid lightgray;
+    padding: 12px;
+  }
+
+  .favourite-icon {
+    width: 40px;
+    height: 40px;
+    background-color: none;
+    border-radius: 0%;
+  }
+
+  .cart-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .notification-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .person_profile-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn-login-nav {
+    border-radius: 0;
+    font-size: 10px;
+    font-weight: 300;
+    background-color: none;
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+
+
+  .user-name {
+    margin-right: 10px; // Adjust margin as needed /
+    font-size: 15px;
+  }
+
+  // Add this CSS to your stylesheet or component /
+  .user-profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; //Adjust margin as needed /
+  }
+
+  .search-bar-navbar-main {
+    flex-grow: 12;
+    margin-right: 10px;
+  }
+
+  // Add this CSS to your existing styles or in a separate styles file /
+  .custom-mobile-align {
+    margin-left: 10%; // This pushes the items to the left /
+    margin-right: 0; // Reset right margin /
+  }
+
+  .search-bar-navbar-main input {
+    max-width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  // Add this to your navbar.scss or your preferred stylesheet /
+
+
+
+  // Optionally, you can add transitions for a smoother effect /
+ 
+ 
+
+  // Adjust the styles based on your design preferences /
+}

@@ -1,0 +1,28 @@
+.custom-indicators {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+top: 70%;
+  width: 100%; /* Make the indicators span the full width of the carousel */
+}
+
+.custom-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: darkgrey;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-indicator.active {
+  background-color: rgb(14, 13, 13);
+}
+
+.Carousel {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,79 @@
+
+
+{
+  "categories": [
+    {
+      "name": "Web Development",
+      "imageKey": "webdev.svg",
+      "description": "We design & develop comprehensive curricula aligned with academic.",
+      "videos": [
+        {
+          "id": "html-intro",
+          "title": "Introduction to HTML",
+          "url": "https://www.youtube.com/watch?v=xyz"
+        },
+        {
+          "id": "css-basics",
+          "title": "CSS Basics",
+          "url": "https://www.youtube.com/watch?v=abc"
+        },
+        {
+          "id": "js-fundamentals",
+          "title": "JavaScript Fundamentals",
+          "url": "https://www.youtube.com/watch?v=123"
+        }
+      ]
+    },
+    {
+      "name": "Digital Marketing",
+      "imageKey": "digitalmarketing.svg",
+      "description": "A digital market refers to an online platform where goods and services."
+    },
+    {
+      "name": "UI/UX Design",
+      "imageKey": "uiux.svg",
+      "description": "Magnetic maintain globally process with model architectures data after."
+    },
+    {
+      "name": "Graphic Design",
+      "imageKey": "graphic.svg",
+      "description": "Graphic Design is the art and practice of visual communication, utilizing."
+    },
+    {
+      "name": "Physics Pro Course",
+      "imageKey": "physics.svg",
+      "description": "Physics courses generally cover a wide range of topics, include."
+    },
+    {
+      "name": "Music Production",
+      "imageKey": "music.svg",
+      "description": "Music producers is responsible for guiding and overseeing the entire."
+    },
+    {
+      "name": "Lifestyle",
+      "imageKey":"lifestyle.svg",
+      "description": "These courses cover a wide range of topics related to personal develop."
+    },
+    {
+      "name": "Business Growth",
+      "imageKey": "businessgrowth.svg",
+      "description": "Business growth refers to the process of increasing a companys."
+    }
+  ],
+  "statistics": [
+    {
+      "number": "1500+",
+      "description": "CAREER TRANSITIONS"
+    },
+    {
+      "number": "1500+",
+      "description": "CAREER TRANSITIONS"
+    },
+    {
+      "number": "1500+",
+      "description": "CAREER TRANSITIONS"
+    }
+  ]
+}
+
+  

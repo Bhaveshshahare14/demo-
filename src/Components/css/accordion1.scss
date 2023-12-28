@@ -1,0 +1,108 @@
+.dv-accord{
+  padding-top: 5%;
+  padding-bottom: 4%;
+  
+
+.col-style{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+  .h2{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    font-weight: bold;
+  }
+  .accordion {
+    --bs-accordion-active-bg: #ffffff;
+    --bs-accordion-active-color: #000000;
+    --bs-accordion-btn-focus-box-shadow: none;
+  }
+  .accordion-button.collapsed {
+    border: 0.2px solid #efeeee;
+  }
+  .accordion .accordion-item:has(.accordion-button:not(.collapsed)) {
+    border: 2px solid #000000;
+    // box-shadow: 5px 5px #000000;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
+  }
+  .accordion-collapse {
+    transition: all 0.3s;
+  }
+  .card {
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  
+     padding-right: 25px;
+    
+     padding-left: 25px;
+  }
+  .accordion-button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2%;
+  }
+
+  .text-orange {
+    color: orange;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  .star {
+    width: 20px;
+    height: 20px;
+  }
+  .share {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .button-style {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 12%;
+    
+  }
+  .btn-2 {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid #2575fc;
+    font-size: 17px;
+    font-weight: 600;
+  }
+ 
+  .h6 {
+    align-items: center;
+    font-weight: bold;
+  }
+  .para {
+    color:rgb(129, 128, 129);
+    padding-top: 3%;
+    text-align: justify;
+  }
+  .para-1{
+    color:rgb(129, 128, 129);
+    font-size: 13px;
+  }
+  .division {
+    padding-top: 30%;
+  }
+
+
+  
+  .w-100{
+    border-radius: 20px;
+  }
+}

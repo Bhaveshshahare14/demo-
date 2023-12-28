@@ -1,0 +1,69 @@
+
+{
+  "applicationFormData.json": {
+    "sections": [
+      {
+        "title": "Personal Information",
+        "fields": [
+          {
+            "label": "Name",
+            "type": "text",
+            "placeholder": "NAME",
+            "imageSrc": "../assest/nameteach.png"
+          },
+          {
+            "label": "E-mail",
+            "type": "text",
+            "placeholder": "E-MAIL",
+            "imageSrc": "../assest/mailteach.png"
+          },
+          {
+            "label": "Phone",
+            "type": "text",
+            "placeholder": "PHONE",
+            "imageSrc": "../assest/phone.png"
+          },
+          {
+            "label": "Address",
+            "type": "text",
+            "placeholder": "ADDRESS",
+            "imageSrc": "../assest/addressteach.png"
+          }
+        ]
+      },
+      {
+        "title": "Additional Information",
+        "fields": [
+          {
+            "label": "Experience",
+            "type": "text",
+            "placeholder": "EXPERIENCE",
+            "imageSrc": "../assest/experience.png"
+          },
+          {
+            "label": "Skills",
+            "type": "text",
+            "placeholder": "SKILLS",
+            "imageSrc": "../assest/skills.png"
+          },
+          {
+            "label": "Upload Contact",
+            "type": "text",
+            "placeholder": "UPLOAD CONTACT",
+            "imageSrc": "../assest/uploadcontent.png"
+          },
+          {
+            "label": "Upload ID Proof",
+            "type": "text",
+            "placeholder": "UPLOAD ID PROOF",
+            "imageSrc": "../assest/uploadproff.png"
+          }
+        ]
+      }
+    ],
+    "popupContent": {
+      "title": "Hey Trainer!",
+      "message": "Please complete the teacher application form to provide us with your essential information."
+    }
+  }
+}

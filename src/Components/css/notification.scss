@@ -1,0 +1,43 @@
+.dv-notification {
+  position: fixed;
+  top: 70px; // Adjust this value based on your navbar height /
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+
+
+.notification-modal {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 100;
+}
+
+
+
+
+.show-more-link {
+  margin-top: 10px;
+  text-decoration: underline;
+  color: rgb(68, 79, 170);
+  cursor: pointer;
+  margin-left: 180px; // Add your desired right margin /
+}
+
+
+.close-button {
+  background-color: rgb(68, 79, 170);
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+}

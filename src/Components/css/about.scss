@@ -1,0 +1,95 @@
+.dv-about-us{
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+ background-color: white;
+
+.heading{
+  text-align: center;
+  font-weight: bold;
+}
+
+.h4 {
+
+  font-weight: 600;
+  padding-bottom: 3%;
+  
+}
+.w-100{
+  padding: 20px;
+}
+
+.btn {
+  padding: 15px;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  background-color: #0080ff;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+ 
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  color: #0080ff;
+  border: 1px solid #0080ff;
+ 
+}
+.btn-style{
+  
+  padding-top: 30px;
+}
+.paragraph{
+  text-align: justify;
+}
+
+  // // X-Small devices (portrait phones, less than 576px)
+  // @media (max-width: 375.98px)
+  @media (min-width: 373px) and (max-width: 768px) 
+  
+  {
+   .heading {
+     font-weight: bold;
+     text-align: center;
+  
+     font-size: 23px;
+     
+   }
+   .h4 {
+
+    font-weight: 600;
+    padding: 0 15px;
+    font-size: 18px;
+    
+  }
+  .paragraph{
+    margin-bottom: 20px;
+padding: 10px;
+font-size: 15px;
+    
+  }
+  .img-fluid{
+   padding: 5px;
+  }
+  .btn{
+    display: none;
+  }
+ 
+ 
+ 
+
+ 
+  
+ 
+  
+
+  
+  }
+}
+
+
+
+

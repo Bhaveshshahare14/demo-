@@ -1,0 +1,151 @@
+{
+  "accordionData": [
+    {
+     
+      "header": "INTRODUCTION TO POWER BI",
+      "body": [
+        "Introduction to Business Intelligence (BI)",
+        "Stages of business intelligence (BI)",
+        "Use cases of BI",
+        "Various BI tools",
+        "Overview of Data warehouse & concepts",
+        "Introduction to Power BI",
+        "Why Power BI",
+        "Power BI Components",
+        "Power BI pricing structure",
+        "Building blocks of Power BI",
+        "Architecture of Power BI",
+        "Introduction of Power BI Desktop",
+        "Installation of Power BI Desktop",
+        "The key features of Power BI workflow",
+        "Process of creating reports in Power BI"
+      ]
+    },
+    {
+      "header": "DATA MODELLING",
+      "body": [
+      "Introduction of relationships",
+      "Creating relationships",
+      "Cardinality",
+      "Cross filter direction",
+      "Inactive relationships"
+      
+      ]
+    },
+    {
+      "header": "DAX",
+      "body": [
+        "Introduction of DAX",
+        "Why DAX is used",
+        "DAX syntax",
+        "DAX functions",
+        "Context in DAX",
+        "Calculated columns using DAX",
+        "Measures using DAX",
+        "Calculated tables using DAX",
+        "Learning about table, information, logical, text, iterator",
+        "Cumulative values, calculated tables, and ranking and rank over groups",
+        "Date and time functions"
+      ]
+    },
+    {
+      "header": "DATA VISUALIZATION WITH ANALYTICS",
+      "body": [
+      "Deep dive into Power BI data visualization",
+      "Data visualization techniques",
+      "Page layout & Formatting",
+      "Power BI Desktop visualization",
+      "Formatting and customizing visuals",
+      "Visualization interaction",
+      "Custom visualization in Power BI"
+    ]
+    },
+    {
+      "header": "MOBILE APPS",
+      "body": [
+        "Downloading Power BI Mobile App",
+        "Creating Mobile App",
+        "Customize Mobile App",
+        "Publishing App"
+
+      ]
+    },
+    {
+      "header": "POWER BI SERVICE",
+      "body": [
+        "Creating a Service Account.",
+        "Publish and Share Reports",
+        "Create a Public Link.",
+        "Create an App Workspace",
+       " Grant Access on Workspace",
+      "  View Quick Insights",
+       " Creating Dashboards",
+        "Adding Text Widget",
+        "Adding Image Widget",
+        "Adding Video Widget",
+        "Explore Q&A"
+      ]
+    },
+    {
+      "header": "SUBSCRIPTIONS a RLS(Row Level Security)",
+      "body": [
+        "Creating Subscriptions in Power Bl",
+        "Installing Data Gateway",
+        "Configure Data Gatewa",
+        "Scheduled Data Refresh",
+        "Grant Access to Objects",
+        "Creating Roles",
+        "Role Impersonation",
+        "Publish Report to Service Account",
+        "Assign User(s) to Roles",
+        "Share the Report"]
+    },
+    {
+      "header": "SQL FUNCTIONS & PREDICATES",
+      "body": [
+        "SQL Functions",
+        "Aggregate Functions",
+        "String Functions",
+        "Date & Time Functions",
+        "SQL Predicates"
+      ]
+    },
+    {
+      "header": "SQL Join Types",
+      "body": [
+        "Creating and Altering table in SQL",
+        "Data Definition Language Commands",
+        "CREATE, DROP, ALTER, TRUNCATE"
+      ]
+    },
+    {
+      "header": "NULL VALUES & Set Operations",
+      "body": ["NULL Values"]
+    },
+    {
+      "header": "SQL Indexes",
+      "body": ["SQL Indexes", "CREATE Indexes", "Type of Indexes", "DROP Indexes"]
+    },
+    {
+      "header": "SQL Views",
+      "body": [
+        "SQL Views",
+        "CREATE View",
+        "INSERT rows into View",
+        "SELECT rows into view",
+        "DROP View",
+        "Wildcard Operators in SQL"
+      ]
+    },
+    {
+      "header": "Subqueries in SQl",
+      "body": [
+        "Subquery with SELECT",
+        "Subquery with INSERT",
+        "Subquery with WHERE",
+        "Subquery with DELETE",
+        "Subquery with UPDATE"
+      ]
+    }
+  ]
+}

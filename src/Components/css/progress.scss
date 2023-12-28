@@ -1,0 +1,53 @@
+.dv-progress-page {
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  .heading {
+    text-align: center;
+    padding-bottom: 4%;
+    font-weight: bold;
+  }
+  .progress-bar {
+    width: 30%;
+  }
+  .progress {
+    height: 5px;
+  }
+  .card {
+    padding:3%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+
+  .course-title {
+    font-weight: 600;
+  }
+  .course-description {
+    color: rgb(118, 116, 118);
+    margin-bottom: 20px;
+  }
+
+  .col-style {
+    padding: 2%;
+  }
+
+  .w-100 {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .div-p {
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  .hr{
+  margin: 0%;
+  }
+
+  .para {
+    font-size: 13px;
+    text-align: right;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+}

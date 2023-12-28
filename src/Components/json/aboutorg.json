@@ -1,0 +1,51 @@
+{
+    "aboutOrg": {
+      "statistics": {
+        "courses": {
+          "image": "adobestock2",
+          "count": "10k+",
+          "description": "Students Active On Our Courses"
+        },
+        "welcomeMessage": {
+          "image": "adobestock_3",
+          "description": "Welcome to LearnSpan",
+          "content": "We're not a platform; we're your path to success. Our mission is to empower students worldwide, bridging the gap between knowledge and ambition. Join us to unlock your full potential."
+        }
+      },
+      "educationTypes": [
+        {
+          "image": "ue",
+          "type": "Undergraduate Education",
+          "description": "With flexible courses"
+        },
+        {
+          "image": "pe",
+          "type": "Postgraduate Education",
+          "description": "Study flexibly online"
+        }
+      ],
+      "benefits": [
+        "Get access to 4,000+ of our top courses",
+        "Popular topics to learn now",
+        "Find the right instructor for you"
+      ],
+      "successStatistics": [
+        {
+          "count": "3.9k+",
+          "category": "SUCCESSFULLY",
+          "subcategory": "TRAINED"
+        },
+        {
+          "count": "15k+",
+          "category": "CLASSES",
+          "subcategory": "COMPLETED"
+        },
+        {
+          "count": "100.1k+",
+          "category": "STUDENTS",
+          "subcategory": "COMMUNITY"
+        }
+      ]
+    }
+  }
+  

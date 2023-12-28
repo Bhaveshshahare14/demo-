@@ -1,0 +1,22 @@
+{
+"whatwedo":[
+  {
+    "id": 1,
+    "image": "cardimg1.svg",
+    "title": "Learn From Anywhere",
+    "description": "Competently unleash competitive initiatives for alternative interfaces. Enthusiastically supply resource leveling platforms."
+  },
+  {
+    "id": 2,
+    "image": "cardimg2.svg",
+    "title": "Expert Instructor",
+    "description": "Competently unleash competitive initiatives for alternative interfaces. Enthusiastically supply resource leveling platforms."
+  },
+  {
+    "id": 3,
+    "image": "cardimg3.svg",
+    "title": "24/7 Live Support",
+    "description": "Competently unleash competitive initiatives for alternative interfaces. Enthusiastically supply resource leveling platforms."
+  }
+]
+}

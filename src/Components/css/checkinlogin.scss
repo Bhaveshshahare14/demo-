@@ -1,0 +1,41 @@
+.dv-login-form {
+  .btn {
+    background-color: rgba(37, 117, 252, 1);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-style {
+    margin-bottom: 20px;
+  }
+
+  .custom-control-input {
+    border: 1px solid rgba(37, 117, 252, 1);
+  }
+
+  .form-label {
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .form-input {
+    background-color: rgba(37, 117, 252, 0.1);
+    color: rgba(116, 112, 112, 0.5);
+  }
+  .forget {
+    text-decoration: none;
+    color: black;
+  }
+  .card {
+    padding: 40px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  }
+  .custom-control-label{
+    margin-left: 3px;
+  }
+
+  .red-color {
+    color: red;
+  }
+  
+}

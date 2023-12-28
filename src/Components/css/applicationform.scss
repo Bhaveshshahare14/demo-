@@ -1,0 +1,116 @@
+.dv-Application-form {
+
+
+  .para-1{
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .para {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom:25px;
+  }
+
+  .heading-1{
+    padding-top: 45px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .heading {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .para {
+    text-align: center;
+  }
+
+  .my-button {
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .my-button:hover {
+    background-color: #0247fe;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .my-button-next {
+    background-color: #0247fe;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+margin-top: 10px;
+margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .my-button-next:hover {
+    background-color: white;
+    color: #0247fe;
+    border: 2px solid #0247fe;
+  }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blue-column {
+    background-color: blue;
+    color: white;
+  }
+
+  .white-column {
+    background-color: rgb(247, 244, 244);
+    color:black;
+  }
+
+
+
+ 
+
+
+
+  .input-container {
+    position: relative;
+    
+  }
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left positioning as needed */
+    transform: translateY(-50%);
+    z-index: 1;
+    width:25px;
+    height:25px;
+  }
+
+  .form-control {
+
+    margin-bottom: 30px;
+    background-color: white;
+    font-weight: 450;
+    color: #00000080;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-left: 40px; /* Increase the padding to move the text away from the icon */
+    font-size: 16px;
+    border: none;
+  }
+ 
+}
