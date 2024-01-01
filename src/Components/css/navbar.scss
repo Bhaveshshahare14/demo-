@@ -5,7 +5,7 @@
   z-index: 100;
 
   .navbar-nav {
-    height: 60px; 
+    height: 80px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,10 +13,12 @@
   .navbar-nav .nav-item .nav-link {
     color: black;
     font-weight: 600;
+   
   }
 
   .nav-link {
     margin-right: 12px;
+    
   }
  
   .nav-item {
@@ -117,4 +119,7 @@
  
 
   // Adjust the styles based on your design preferences /
+
+ 
+  
 }

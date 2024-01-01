@@ -17,9 +17,9 @@ const Instructor = () => {
     <div className="container-fluid  dv-instructor">
       <div className="row">
         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-          <div className="h1">
+         <div className="instructor">
             <h1>Become an Instructor On Our Online Platform.</h1>
-          </div>
+            </div>
 
           <div className="ML d-md-none d-lg-none">
             <img src={important} className="w-100" alt="important" />

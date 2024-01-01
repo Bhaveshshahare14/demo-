@@ -12,7 +12,7 @@
    border-radius: 10px;
    
  }
- 
+
  
  .card-img-top-20{ 
    width: 100%; 
@@ -89,21 +89,68 @@
 
    // X-Small devices (portrait phones, less than 576px)
 // @media (max-width: 375.98px)
-@media (min-width: 320px) and (max-width: 768px) 
+// @media (min-width: 375px) and (max-width: 768px)
 
-{
- .popular-courses-h1 {
-   font-weight: bold;
-   text-align: center;
+// {
+//  .popular-courses-h1 {
+//    font-weight: bold;
+//    text-align: center;
 
-   font-size: 23px;
+//    font-size: 19px;
   
- }
- .card-img-top-20{
-  padding: 20px;
- }
-}
+//  }
+//  .card-img-top-20{
+//   padding: 20px;
+//  }
+//  .card-title{
+  
+//   font-size: 15px;
+//  }
+
+// .col-7{
+//   font-size: 12px;
+//   margin-top: 5px;
+// }
+// .tagimg{
+
+//  width: 75px;
+//  height: 35px;
+// }
+// }
  
+
+@media only screen and (max-width: 576px) {
+  
+
+  .popular-courses-h1{
+    font-size: 1.4em;
+ 
+}
+.card-img-top-20{
+  padding: 10px;
+}
+.card-body{
+  padding: 0;
+  margin:  10px 10px;
+}
+// .card-title{
+// padding: 10px;
+// }
+.row-Courses{
+  padding:  0 15px;
+}
+.instructor{
+ 
+ font-size: 15px;
+}
+.tagimg{
+  margin-right: 5px;
+
+}
+
+
+  
+}
  
  
  

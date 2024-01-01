@@ -2,11 +2,14 @@
   padding-top: 7%;
   padding-bottom: 4%;
  
+ 
   .heading-h1 {
     font-weight: bold;
     text-align: center;
     padding-bottom: 4%;
   }
+
+ 
   .Courses-links {
     color: black;
     font-size: 14px;
@@ -79,46 +82,122 @@
 color:rgb(13, 94, 244);
   }
 
-  // X-Small devices (portrait phones, less than 576px)
-// @media (max-width: 375.98px)
-@media (min-width: 373px) and (max-width: 768px) 
- {
-  .heading-h1 {
-    font-weight: bold;
-    text-align: center;
- 
-    font-size: 23px;
-  
-  }
-  .h2{
-        font-size: 15px;
-        padding-top: 5px;
-        
-       
-        
-  }
-  .h6{
-      font-size: 8px;
-      font-weight: bold;
+ // X-Small devices (portrait phones, less than 576px)
+//  @media (min-width: 375px) and (max-width: 767.98px)
+//  {
+//   @media (orientation: portrait) {
+//   .heading-h1 {
+//     font-weight: bold;
+//     text-align: center;
+//     font-size: 19px;
+// }
+//   .h2{
+//         font-size: 15px;
+//         padding-top: 5px;
+//     }
+//   .h6{
+//       font-size: 7px;
+//       font-weight: bold;
       
-  }
-  .card-img-top {
-    width: 50px;
-    height: 50px;
+//   }
+//   .card-img-top {
+//     width: 50px;
+//     height: 50px;
     
-    transition: transform 0.6s ease;
-  }
-  .card-body{
-    padding: 3px;
-  }
-  .Courses-links {
-    color: black;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
   
-  }
+//   }
+//   .card-body{
+//     padding: 3px;
+   
+//   }
+//   .Courses-links {
+//     color: black;
+//     font-size: 14px;
+//     font-weight: 600;
+//     text-decoration: none;
+  
+//   }
+//   .h5-style{
+//     font-size: 16px;
+//   }
+ 
 
+
+// }
+ 
+// @media (orientation: landscape) {
+//   .heading-h1 {
+//     font-weight: bold;
+//     text-align: center;
+//     font-size: 23px;
+// }
+// .card-img-top{
+//   margin-bottom: 8px;
+// }
+// .h2{
+//   font-size: 30px;
+//   padding-top: 7px;
+// }
+// .h6{
+//   font-size: 10px;
+// }
+// .col-4{
+//   padding: 5px;
+// }
+// .h5-style{
+//   font-size: 19px;
+// }
+
+// }
+// }
+
+@media  (max-width: 576px) {
+  .dv-course{
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-h1{
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+.card{
+  margin: 5px;
+}
+.card-body{
+  padding: 5px;
+}
+.card-img-top{
+  margin: 8px;
+}
+.h5-style{
+  font-size: 1.2em;
+}
+.card-text{
+  padding: 0;
+  margin: 3px;
+}
+.col-4{
+  padding-top: 10px;
+}
+.h2{
+  font-size: 1.3em;
+  margin: 3px;
+}
+.h6{
+  font-size: 8px;
+  margin: 0;
+}
+
+  
+}
+@media only screen and (min-width: 576px){
+.dv-course{
+  display: flex;
+  flex-direction: row;
+}
 
 }
+
+
 }

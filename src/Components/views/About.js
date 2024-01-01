@@ -34,7 +34,7 @@ function About() {
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 my-auto">
           <div>
            
-             <h4 className="h4 d-none d-sm-block">
+             <h4 className="h4 d-none ">
               Empowering Minds,Enriching Futures: Discover the Story Behind Our
               Educational Journey!
             </h4>

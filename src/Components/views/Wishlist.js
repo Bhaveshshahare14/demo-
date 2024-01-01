@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import tickmark from "../assest/tickmark.png";
-import wishlistshop from "../assest/wishlistshop.svg";
+import wishlistshop from "../assest/wishlistshop.png";
 import wishlist from "../json/wishlist.json";
 import "../css/wishlist.scss";
 
@@ -19,6 +19,8 @@ const Wishlist = () => {
     updatedButtonClicked[index] = !updatedButtonClicked[index];
     setButtonClicked(updatedButtonClicked);
   };
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
 
   return (
     <div className="container pt-5 pb-5 dv-wishlist">
@@ -62,11 +64,13 @@ const Wishlist = () => {
                   <button
                     className="btn"
                     onClick={() => handleButtonClick(index)}
+                    onMouseEnter={() => setHoveredIndex(index)}
+                    onMouseLeave={() => setHoveredIndex(null)}
                   >
                     <img
                       src={wishlistshop}
                       alt="add-to-cart"
-                      className="wishlistshop"
+                      className={`wishlistshop${hoveredIndex === index ? ' active' : ''}`}
                     />
                     <span>Add to cart</span>
                   </button>
@@ -82,16 +86,3 @@ const Wishlist = () => {
 };
 
 export default Wishlist;
-
-
-// import React from 'react'
-
-// const Wishlist = () => {
-//   return (
-//     <div className='container-fluid'>
-      
-//     </div>
-//   )
-// }
-
-// export default Wishlist

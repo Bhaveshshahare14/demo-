@@ -190,58 +190,110 @@ padding: 3%;
 
 //     // X-Small devices (portrait phones, less than 576px)
 // @media (max-width: 375.98px)
-@media (min-width: 373px) and (max-width: 768px) 
+// @media (min-width: 320px) and (max-width: 768px) 
 
-{
- .heading h1{
-   font-weight: bold;
-   text-align: left;
-   padding-left: 5px;
-   font-size: 23px;
+// {
+//  .heading h1{
+//    font-weight: bold;
+//    text-align: left;
+//    padding-left: 5px;
+//    font-size: 19px;
   
- }
- .para-1{
-  font-size: 12px;
-  margin-left: 10px;
- }
+//  }
+//  .para-1{
+//   font-size: 10px;
+//   margin-left: 10px;
+//  }
  
- .icon {
-  width: 40px;
-  height: 40px;
-  color: #0080ff;
-  background-color: rgb(238,244,254);
-  margin-left: 30px;
-}
+//  .icon {
+//   width: 40px;
+//   height: 40px;
+//   color: #0080ff;
+//   background-color: rgb(238,244,254);
+//   margin-left: 30px;
+// }
 
-.dv-h6{
-  text-align: left;
-  margin-left: 48px;
+// .dv-h6{
+//   text-align: left;
+//   margin-left: 48px;
+//  font-size: 15px;
+// }
+// .card{
+//   padding: 3px;
+//   margin-bottom: 20px;
+// }
+
+// .para{
+//   font-size: 12px;
+//   margin-left: 50px;
+// }
+// .input{
+//  font-size: 15px;
+//  padding: 10px;
+// }
+// .btn-style{
+//   text-align: center;
+
+//  }
+//  .btn{
+//   font-size: 12px;
+//   padding: 10px 5px;
+//   width: 40%;
+//   margin-top: 10px;
+//  }
+//  .input-style{
+//   padding: 15px;
+//  }
+//  .input-icon{
+//   margin-right: 12px;
+//  }
+//  .row{
+//   display: flex;
+//   flex-direction: column;
+//  }
+
+
  
+// }
+
+// 
+@media only screen and (max-width: 576px) {
+  
+
+  .heading h1{
+    font-size: 1.4em;
+ 
+}
+ 
+.para-1{
+  font-size: 12px;
+  padding: 10px;
 }
 .card{
-  padding: 5px;
+  padding: 0;
+  margin: 10px;
+}
+.content{
+  margin-left: 10px;
+}
+.input-1{
+  padding: 10px;
 }
 
-.para{
-  font-size: 12px;
-  margin-left: 50px;
-}
+
 .input{
-  padding: 12px;
-  width: 100%;
+  padding: 10px;
 }
 .btn-style{
-  text-align: center;
- 
- }
- .btn{
-font-size: 12px;
-  padding: 10px 5px;
-  width: 40%;
- }
- 
-
-
- 
+    text-align: center;
+  
+   }
+   .btn{
+    font-size: 12px;
+    padding: 10px 5px;
+    width: 40%;
+    margin-top: 10px;
+   }
+  
 }
 }

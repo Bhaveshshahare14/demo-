@@ -3,10 +3,14 @@
   padding-top: 3%;
   padding-bottom: 3%;
  background-color: white;
-
+ 
 .heading{
   text-align: center;
   font-weight: bold;
+}
+.row{
+  display: flex;
+  flex-direction: row;
 }
 
 .h4 {
@@ -46,37 +50,47 @@
   text-align: justify;
 }
 
-  // // X-Small devices (portrait phones, less than 576px)
-  // @media (max-width: 375.98px)
-  @media (min-width: 373px) and (max-width: 768px) 
+//   // // X-Small devices (portrait phones, less than 576px)
+//   // @media (max-width: 375.98px)
+//   @media (min-width: 320px) and (max-width: 768px) 
   
-  {
-   .heading {
-     font-weight: bold;
-     text-align: center;
-  
-     font-size: 23px;
+//   {
+//    .heading {
+//      font-weight: bold;
+//      text-align: center;
+//      font-size: 19px;
      
-   }
-   .h4 {
+//    }
+//    .h4 {
 
-    font-weight: 600;
-    padding: 0 15px;
-    font-size: 18px;
+//     font-weight: 600;
+//     padding: 0 15px;
+//     font-size: 14px;
+//     text-align: center;
+//     margin: 0 ;
     
-  }
-  .paragraph{
-    margin-bottom: 20px;
-padding: 10px;
-font-size: 15px;
+//   }
+//   .paragraph{
+//  padding: 0 20px ;
+
+// font-size: 15px;
     
-  }
-  .img-fluid{
-   padding: 5px;
-  }
-  .btn{
-    display: none;
-  }
+//   }
+  
+//   .img-fluid{
+//   // padding: 5px 30px;
+
+//     // padding-top: 3%;
+//     padding-left: 10%;
+//     padding-right: 10%;
+  
+   
+
+   
+//   }
+//   .btn{
+//     display: none;
+//   }
  
  
  
@@ -87,7 +101,107 @@ font-size: 15px;
   
 
   
+//   }
+
+// @media (min-width: 375px) and (max-width: 767.98px)
+//  {
+//   @media (orientation: portrait) {
+//   .heading {
+//     font-weight: bold;
+//     text-align: center;
+//     font-size: 19px;
+ 
+//     margin: 0;
+// }
+// .btn{
+//      display: none;
+//    }
+
+//   .h4{
+//         font-size: 15px;
+//       padding: 10px;
+//       text-align: center;
+//       margin: 0;
+//     }
+//  .img-fluid{
+  
+//    padding-left: 10%;
+//    padding-right: 10%;
+//    padding-bottom: 5%;
+//  }
+//  .paragraph{
+//   padding: 0 20px ;
+  
+//  font-size: 15px;
+      
+//     }
+
+
+// }
+ 
+// @media (orientation: landscape) {
+//   .heading {
+//     font-weight: bold;
+//     text-align: center;
+//     font-size: 23px;
+//     margin-bottom: 0;
+// }
+
+// .h4{
+//   font-size: 18px;
+//   padding: 20px;
+// }
+// .img-fluid{
+//   padding: 0 25%;
+//   padding-bottom
+//   : 10px;
+
+// }
+// .btn{
+//   display: none;
+// }
+
+// }
+// }
+
+@media only screen and (max-width: 576px) {
+  
+  .row{
+    flex-direction: column;
   }
+  .heading{
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+.h4{
+  font-size: 1em;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+.w-100{
+  padding: 0;
+}
+.img-fluid{
+  width: 200px;
+  height: auto;
+  margin-left: 20%;
+}
+.paragraph{
+  font-size: 1em;
+  padding: 20px;
+}
+.btn-style{
+  padding: 0;
+}
+.btn{
+  display: none;
+}
+
+
+  
+}
 }
 
 

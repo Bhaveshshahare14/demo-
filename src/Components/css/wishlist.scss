@@ -27,5 +27,11 @@
     width: 20px;
     height: 20px;
     margin-right: 3px;
+    transition: filter 0.3s ease;
   }
+  .wishlistshop.active {
+    filter: brightness(0.50) sepia(5) hue-rotate(200deg);
+  
+  }
+ 
 }

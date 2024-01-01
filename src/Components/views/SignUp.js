@@ -292,7 +292,7 @@ const SignUp = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        // mode: "no-cors",
+        mode: "no-cors",
         body: JSON.stringify(newUser),
       });
       // https://sheets.googleapis.com/v4/spreadsheets/1j606oxR8olxLmUOAdue0KNpygYAb-BD78Ehrd-OjWa8/values/CreatingAcc?alt=json&key=AIzaSyDdi0UU8I3HYiKurQhU8zJzTGOGegCohgk

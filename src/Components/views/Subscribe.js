@@ -51,7 +51,7 @@ const Subscribe = () => {
   return (
     <div className="container dv-subscribe">
       <div className="heading">
-        <h1><b>Subscribe Newsletter</b></h1>
+        <h1>Subscribe Newsletter</h1>
       </div>
       <div className="row">
         <div className="col-12 col-sm-12 col-md-4 col-lg-4">

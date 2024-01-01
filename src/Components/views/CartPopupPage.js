@@ -71,9 +71,9 @@ const CartPopupPage = ({ isOpen, toggleCartPopup }) => {
           
           {cartItems.map((item) => (
             <div key={item.id} className="row  cart-item">
-              <div className="col-sm-5">
+              <div className="col-sm-5 col-4">
                 <div>
-                  <img src={item.image} alt={item.name} className="w-100" />
+                  <img src={item.image} alt={item.name}  className="w-100" />
                 </div>
               </div>
               <div className="col-sm-7">

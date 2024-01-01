@@ -9,7 +9,7 @@ function CourseCard({ name, imageKey, description, videos }) {
     setShowDetails(!showDetails);
   };
   return (
-    <div className="card">
+    <div className="card ">
       <div className="card-body">
         <img
           src={require(`../assest/${imageKey}`)}
@@ -69,7 +69,7 @@ function Courses() {
 
       <div className="row">
         {courseinfo.categories.map((course, index) => (
-          <div key={index} className="col-12 col-sm-12 col-md-3 col-lg-3">
+          <div key={index} className="col-12 col-sm-6 col-md-3 col-lg-3">
             <CourseCard
               name={course.name}
               imageKey={course.imageKey}

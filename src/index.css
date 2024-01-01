@@ -11,7 +11,7 @@ body {
 
     
   }
-
+ 
   *{
     font-family: 'Jost', sans-serif;
    /* font-family: 'Nunito', sans-serif; */
@@ -29,7 +29,7 @@ body {
  }
  .fs-20{
   font-size: 20px;
- }
+ } 
 
  /* .h1{
   font-family: 'Nunito Sans', sans-serif;
@@ -60,3 +60,32 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
  } */
+
+ /* styles.css */
+
+/* Normal styles for all screen sizes */
+/* body {
+  font-size: 16px;
+} */
+
+/* Media query for screens smaller than 600px */
+/* @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+} */
+
+/* Media query for screens between 601px and 1200px */
+/* @media (min-width: 601px) and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+} */
+
+/* Media query for screens larger than 1200px */
+/* @media (min-width: 1201px) {
+  body {
+    font-size: 20px;
+  }
+} */
+
