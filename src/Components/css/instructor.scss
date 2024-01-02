@@ -206,7 +206,8 @@ padding-right: 6%;
 
  
 // }
-@media only screen and (max-width: 576px) {
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
   
 
   .instructor h1{
@@ -228,11 +229,50 @@ padding-right: 6%;
 .btn{
   display: none;
 }
+.card{
+  padding-right: 0;
+}
 
 
 
   
 }
+// Small devices (landscape phones, less than 768px)
+// @media (max-width: 767.98px)
+// {
+  
+
+//   .instructor h1{
+//     font-size: 1.8em;
+ 
+// }
+// .ML{
+//   width: 300px;
+//   margin:  0 25%;
+// }
+// .h5{
+//  font-size: 1em;
+//  padding-top: 5px;
+// }
+// .tickmark{
+//   width: 25px;
+// padding-top: 3px;
+// }
+// .btn{
+//   display: none;
+// }
+// .card{
+//   padding-right: 0;
+//   margin: 1rem;
+// }
+// .row{
+//   margin: 0;
+// }
+
+
+
+  
+// }
 }
 
 

@@ -151,10 +151,11 @@ color:rgb(13, 94, 244);
 // }
 // }
 
-@media  (max-width: 576px) {
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
   .dv-course{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    flex-direction:column;
   }
   .heading-h1{
     font-size: 1.4em;
@@ -191,11 +192,47 @@ color:rgb(13, 94, 244);
 
   
 }
-@media only screen and (min-width: 576px){
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  
 .dv-course{
   display: flex;
   flex-direction: row;
 }
+
+.heading-h1{
+  font-size: 1.8em;
+  padding: 0;
+  margin: 0;
+}
+.card{
+margin: 5px;
+}
+.card-body{
+padding: 5px;
+}
+.card-img-top{
+margin: 8px;
+}
+.h5-style{
+font-size: 1.2em;
+}
+.card-text{
+padding: 0;
+margin: 3px;
+}
+.col-4{
+padding-top: 10px;
+}
+.h2{
+font-size: 1.3em;
+margin: 3px;
+}
+.h6{
+font-size: 8px;
+margin: 0;
+}
+
 
 }
 

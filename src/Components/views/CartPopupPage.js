@@ -55,8 +55,8 @@ const CartPopupPage = ({ isOpen, toggleCartPopup }) => {
   ];
 
   return (
-    
-    <div className={`container-fluid dv-cart-popup ${isOpen ? "show" : "hidden"}`}>
+    <div className="main-cartpopuppage">
+    <div className={`container-fluid  dv-cart-popup ${isOpen ? "show" : "hidden"}`}>
         <div className="cart-popup-content">
      
           <button
@@ -106,6 +106,7 @@ const CartPopupPage = ({ isOpen, toggleCartPopup }) => {
           </button>
         </div>
         </div>
+      </div>
       </div>
    
   );

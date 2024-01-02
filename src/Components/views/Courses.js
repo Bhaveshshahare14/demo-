@@ -9,6 +9,7 @@ function CourseCard({ name, imageKey, description, videos }) {
     setShowDetails(!showDetails);
   };
   return (
+    
     <div className="card ">
       <div className="card-body">
         <img
